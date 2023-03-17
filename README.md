@@ -89,11 +89,11 @@ Let's say having a function like <br>
         cout << "Hello";                -->  O(1)
     }
 
-//In the above code as there's no variable in the code or it can be said that it's fixed therefore it's O(1) complexity
+In the above code as there's no variable in the code or it can be said that it's fixed therefore it's O(1) complexity
 
 
 
-//
+
 
 Let's say having a function like 
 
@@ -101,7 +101,7 @@ Let's say having a function like
         cout << "Hello";                -->  O(n)
     }
 
-//In the above code as n depends on input provided by the user in the code or it can be said that it's variable therefore it's O(n) complexity
+** In the above code as n depends on input provided by the user in the code or it can be said that it's variable therefore it's O(n) complexity
 
     Binary Search -> O(logn)
 
@@ -122,27 +122,26 @@ Let's say having a function like
 # Order of Decreasing Complexity
 
 
-                ^
-O(N!)           |
-O(2^n)          |
-O(N^3)          |
-O(N^2)          |
-O(NlogN)        |
-O(N)            |
-O(logN)         |
-O(1)            |
+O(N!)           <br>
+O(2^n)          <br>
+O(N^3)          <br>
+O(N^2)          <br>
+O(NlogN)        <br>
+O(N)            <br>
+O(logN)         <br>
+O(1)            <br>
 
 ## Questions!!!!!
 
-f(n) -> 2n^2 + 3n       -> O(n^2)
-f(n) -> 4n^4 + 3n^3     -> O(n^4)
-f(n) -> N^2 + logN      -> O(N^2)
-f(n) -> 12001           -> O(1)
-f(n) -> 3n^3 + 2n^2 + 5 -> O(n^3)
-f(n) -> n^3/300         -> O(n^3)
-f(n) -> 5n^2 + logn     -> O(n^2)
-f(n) -> n/4             -> O(n)
-f(n) -> n+4/4             -> O(n)
+f(n) -> 2n^2 + 3n       -> O(n^2) <br>
+f(n) -> 4n^4 + 3n^3     -> O(n^4) <br>
+f(n) -> N^2 + logN      -> O(N^2) <br>
+f(n) -> 12001           -> O(1) <br>
+f(n) -> 3n^3 + 2n^2 + 5 -> O(n^3) <br>
+f(n) -> n^3/300         -> O(n^3) <br>
+f(n) -> 5n^2 + logn     -> O(n^2) <br>
+f(n) -> n/4             -> O(n) <br>
+f(n) -> n+4/4             -> O(n) <br>
 
 
 ## Question 1
