@@ -184,6 +184,31 @@ f(n) -> n+4/4             -> O(n) <br>
 
 10^8 operation rule -> Most of the modern machine can perform 10^8 operation/second
 
+## If Input  |   Time Complexity <br>
+<br>
+<=[10__11]   |  O(n!)           <br>
+<=[15__18]   |  O(2^n * n^2)    <br>
+<=100        |  O(n^4)          <br>
+<=400        |  O(n^3)          <br>
+<=2000       |  O(n^2 * logn)   <br>
+<=10^4       |  O(n^2)          <br>
+<=10^6       |  O(n logn)       <br>
+<br>
+<=10^8       |  O(n) , O(log n) <br>
+
+
+# Space Complexity
+## Question 1
+What is the time, space complexity of the following code:
+
+    int a = 0, b = 0;
+    for(int i = 0; i < n; i++){
+        a = a + rand();
+    }
+    for(int j = 0; j<m; j++) {
+        b = b + rand();
+    }
+Assume that rand() is O(1) time , O(1) space function.
 
 
 
@@ -209,10 +234,3 @@ f(n) -> n+4/4             -> O(n) <br>
 
 
 
-
-
-
-
-
-
-Space Complexities:-
