@@ -97,27 +97,27 @@ Let's say having a function like <br>
 
 Let's say having a function like 
 
-for(i = 0; i < n ; i++){
-    cout << "Hello";                -->  O(n)
-}
+    for(i = 0; i < n ; i++){
+        cout << "Hello";                -->  O(n)
+    }
 
 //In the above code as n depends on input provided by the user in the code or it can be said that it's variable therefore it's O(n) complexity
 
- Binary Search -> O(logn)
+    Binary Search -> O(logn)
 
-for(......){
-    for(.....){
-                                --> O(n^2)
-    }
-}
-
-for(......){
-    for(.....){
-        for(....){
-                                --> O(n^3)
+    for(......){
+        for(.....){
+                                    --> O(n^2)
         }
     }
-}
+
+    for(......){
+        for(.....){
+            for(....){
+                                    --> O(n^3)
+            }
+        }
+    }
 
 # Order of Decreasing Complexity
 
@@ -146,42 +146,42 @@ f(n) -> n+4/4             -> O(n)
 
 
 ## Question 1
-for(...) {
-    ...             -> O(n)
-}                                 -> O(n+m)
-for(...) {
-    ...             -> O(m)
-}
-
-//
-for(..){           -> O(n)
-    for(...){      -> O(m)
-        ...                        ->O(m X n)
+    for(...) {
+        ...             -> O(n)
+    }                                 -> O(n+m)
+    for(...) {
+        ...             -> O(m)
     }
-}
+
+    //
+    for(..){           -> O(n)
+        for(...){      -> O(m)
+            ...                        ->O(m X n)
+        }
+    }
 
 
 ## Question 2
-int a= 0, b = 0;
+    int a= 0, b = 0;
 
-for(i = 0; i< N; i++) {
-    for(j = 0; j < N; j++){   -> O(n^2)
-        a = a + j;
-    }                                   -> O(n^2)
-}
-for(k = 0; k < N; k++){       -> O(n)
-    b = b + k;
-}
+    for(i = 0; i< N; i++) {
+        for(j = 0; j < N; j++){   -> O(n^2)
+            a = a + j;
+        }                                   -> O(n^2)
+    }
+    for(k = 0; k < N; k++){       -> O(n)
+        b = b + k;
+    }
 
 
 
 ## Question 3
-int a =0;
-for(i=0; i<N; i++) {
-    for(j=N;j>i; j--){
-        a = a + i + j;          -> O(n^2)
+    int a =0;
+    for(i=0; i<N; i++) {
+        for(j=N;j>i; j--){
+            a = a + i + j;          -> O(n^2)
+        }
     }
-}
 
 10^8 operation rule -> Most of the modern machine can perform 10^8 operation/second
 
