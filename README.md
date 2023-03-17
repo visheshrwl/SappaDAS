@@ -198,20 +198,28 @@ f(n) -> n+4/4             -> O(n) <br>
 
 
 # Space Complexity
+Memory as a function of length of the input <br>
 ## Question 1
 What is the time, space complexity of the following code:
 
     int a = 0, b = 0;
     for(int i = 0; i < n; i++){
         a = a + rand();
-    }
+    }                               ->O(1)
     for(int j = 0; j<m; j++) {
         b = b + rand();
     }
-Assume that rand() is O(1) time , O(1) space function.
+Assume that rand() is O(1) time , O(1) space function. <br>
+
+        int a, b; -> O(1) space;
 
 
+## Question 2
 
+        func(){
+            int arr[5] = {1,2,3,4,5};
+            .................
+        }
 
 
 
