@@ -69,15 +69,17 @@ Therefore we use time Complexities. <br>
 
 There are 3 ways to show the time complexities-> <br>
 
-## ** 1) Big O Notations -> Upper Bound
+## 1) Big O Notations -> Upper Bound
 ## 2) Theta Notations -> For Avg-case Complexity
 ## 3) Omega Notations -> Lower Bound
+
+# Remember
 
 ## Constant Time -> O(1)
 ## Linear Time -> O(n)
 ## Logarithmic Time -> O(logn)
 ## Quadratic Time -> O(n^2)
-## Cubic Time -> O(n^3) **
+## Cubic Time -> O(n^3)
 
 //
 Let's say having a function like 
