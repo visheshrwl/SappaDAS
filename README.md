@@ -81,12 +81,13 @@ There are 3 ways to show the time complexities-> <br>
 ## Quadratic Time -> O(n^2)
 ## Cubic Time -> O(n^3)
 
-//
-Let's say having a function like 
+<br>
+<br>
+Let's say having a function like <br>
 
-for(i = 0; i < 10 ; i++){
-    cout << "Hello";                -->  O(1)
-}
+    for(i = 0; i < 10 ; i++){
+        cout << "Hello";                -->  O(1)
+    }
 
 //In the above code as there's no variable in the code or it can be said that it's fixed therefore it's O(1) complexity
 
