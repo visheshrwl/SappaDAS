@@ -58,18 +58,18 @@ The Amount of Time taken by an algorithm to run(as a function of length of the i
 
 ## Why?????
 
-1-> For Making better Programs
-2-> Comparison of algorithm
+1-> For Making better Programs <br>
+2-> Comparison of algorithm <br>
 
 
-Algo A -> High Processing -> Slow Machine
-Algo B -> Low Processing  -> Fast Machine
+Algo A -> High Processing -> Slow Machine <br>
+Algo B -> Low Processing  -> Fast Machine <br>
 
-Therefore we use time Complexities.
+Therefore we use time Complexities. <br>
 
-There are 3 ways to show the time complexities->
+There are 3 ways to show the time complexities-> <br>
 
-## 1) Big O Notations -> Upper Bound
+## ** 1) Big O Notations -> Upper Bound
 ## 2) Theta Notations -> For Avg-case Complexity
 ## 3) Omega Notations -> Lower Bound
 
@@ -77,7 +77,7 @@ There are 3 ways to show the time complexities->
 ## Linear Time -> O(n)
 ## Logarithmic Time -> O(logn)
 ## Quadratic Time -> O(n^2)
-## Cubic Time -> O(n^3)
+## Cubic Time -> O(n^3) **
 
 //
 Let's say having a function like 
