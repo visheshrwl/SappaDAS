@@ -221,8 +221,21 @@ Assume that rand() is O(1) time , O(1) space function. <br>
             .................
         }
 
+## Question 3
 
+        int n;
+        cin >> n;
+                                SC-> O(n)
+        vector <int> v(n);
 
+## Question 4
+
+    for(o->n){
+        vector<int> v(n);
+            for(o->n){
+                ....           SC -> O(n)
+            }
+    }
 
 
 
