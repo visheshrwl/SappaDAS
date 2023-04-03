@@ -1,40 +1,40 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int linearSearch(int arr[], int n, int key){
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] == key)
-        {
-            return i;
-        }
-    }
-    return -1;
-}
+// int linearSearch(int arr[], int n, int key){
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] == key)
+//         {
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
 
-int main()
-{
-    int arr[] = {1,2,3,3,5};
-    int n = sizeof(arr)/sizeof(arr[0]);
+// int main()
+// {
+//     int arr[] = {1,2,3,3,5};
+//     int n = sizeof(arr)/sizeof(arr[0]);
 
-    int key;
+//     int key;
 
-    cout << "Enter the number you want to find" << endl;
-    cin >> key;
+//     cout << "Enter the number you want to find" << endl;
+//     cin >> key;
 
-    int result = linearSearch(arr, n, key);
+//     int result = linearSearch(arr, n, key);
 
-    if (result == -1)
-    {
-        cout << "Element not found!!";
-    }
-    else{
-        cout << "Element is found at index \t" <<result;
-    }
+//     if (result == -1)
+//     {
+//         cout << "Element not found!!";
+//     }
+//     else{
+//         cout << "Element is found at index \t" <<result;
+//     }
     
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 
